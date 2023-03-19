@@ -157,18 +157,18 @@ def create_train():
 #%% configure
 #
 model_path = \
-  ('/mnt/c/eaf_llc/aa-analytics_and_bi/alliance_molds/radome_quality/' +
+  ('/mnt/c/eaf_llc/aa-analytics_and_bi/' +
    'image_analysis/models')
 #
 random_state = 42
 #
 data_path = \
-  ('/mnt/c/eaf_llc/aa-analytics_and_bi/alliance_molds/radome_quality/' + 
+  ('/mnt/c/eaf_llc/aa-analytics_and_bi/' + 
    'image_analysis/data/processed/final_test')
 #
 # note that train_dir is required even if ''
 #
-train_dir = '/../20230211_blind_test/train'
+train_dir = '/../train'
 train_folders = ['good', 'bad']
 #
 project = os.getcwd()
